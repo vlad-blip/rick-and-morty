@@ -1,0 +1,8 @@
+.character_list {
+  margin-block: 5rem 18rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  column-gap: 2rem;
+  row-gap: 2.4rem;
+}
