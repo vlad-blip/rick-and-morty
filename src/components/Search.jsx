@@ -22,7 +22,7 @@ const Search = () => {
         type="text"
         placeholder="Filter by name..."
         onChange={inputChangeHandler}
-        value={searchValue}
+        value={searchValue || ""}
       />
     </div>
   );
